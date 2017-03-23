@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Clase de Coordenadas Polares y Suma - Braulio Ríos / Anima </title>
+
+		<meta name="description" content="Clase de coordenadas polares">
+		<meta name="author" content="Braulio Ríos">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/night.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Clase 4: Ejercicios de fuerza, velocidad</h2>
+				</section>
+                
+				<section>
+                    <h5>#4.1</h5>
+                    <h4>Repaso: ¿Cómo convierto entre polares y cartesianas?</h4>
+					<small>Debemos pasar a coordenadas cartesianas para poder sumar</small>
+					<div>
+						<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/YeJPk4tg/width/826/height/404/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="826px" height="404px" style="border:0px;"> </iframe>
+					</div>
+				</section>
+				<section>
+                    <h5>#4.2</h5>
+                    <h4>Ejercicio: dibujar y pasar a coordenadas cartesianas:</h4>
+                    <small>V1 = 10&lt;30º</small><br/>
+                    <small>V2 = 15&lt;-40º</small><br/>
+                    <small>V3 = 15&lt;180º</small><br/>
+                    <small>V4 = 20&lt;-120º</small><br/>
+				</section>
+				<section>
+                    <h5>#4.3</h5>
+                    <small>En esta actividad demostramos que las cantidades asociadas a al seno, coseno y tangente son constantes</small>
+                    <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/ep3htYqJ/width/670/height/437/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="670px" height="437px" style="border:0px;"> </iframe>
+				</section>
+                <section>
+                    <h5>#4.4</h5>
+                    <h4>Ejercicio</h4>
+                    <small>Una lámpara con un peso de 100N (unos 10kg), cuelga de unos cables como muestra la figura.
+                        El ángulo que forma el cable con la pared es conocido, y es de 60º.<br/>
+                        Cuál es la mínima tensión que deben poder aguantar los cables para no romperse?<br/>
+                        Si el ángulo fuera mayor, crees que la tensión será mayor o menor?
+                    </small>
+                    <br/><object data="4.4.1.svg" type="image/svg+xml" height=80% >
+			</section>
+			</div>
+
+		</div>
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
