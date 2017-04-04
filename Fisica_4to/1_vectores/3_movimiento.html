@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Clase de Movimiento Rectilíneo - Braulio Ríos / Anima </title>
+
+		<meta name="description" content="Movimiento Rectilíneo">
+		<meta name="author" content="Braulio Ríos">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/night.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Rapidez, Velocidad, Aceleración</h2>
+				</section>
+				<section>
+					<h4>#5.1</h4>
+					<h4>El movimiento es relativo</h4>
+                    <small>No podemos decir que un objeto se mueve si no sabemos respecto a qué.</small>
+                    <small>¿Se mueve el Sol alrededor nuestro?</small>
+                    <small>Curiosidad: Uno de los postulados de Einstein en la Teoría de la Relatividad, es que <strong>no existe un marco de referencia preferencial</strong>.</small>
+				</section>
+				<section>
+					<h4>#5.2</h4>
+					<h4>Rapidez</h4>
+                    <small>Galileo fue el primero en definirla de forma precisa.</small>
+                    <small><font color="blue"><strong> Rapidez = Distancia recorrida / Tiempo demorado</strong></font></small>
+                    <small>Observar: a mayor distancia, mayor rapidez. A mayor tiempo, menor rapidez.</small>
+				</section>
+				<section>
+					<h4>#5.3</h4>
+					<h4>Rapidez media</h4>
+                    <small>En general, la rapidez varía durante el recorrido.</small>
+                    <small>La <strong>rapidez media</strong> considera sólo la distancia y el tiempo total del recorrido.</small>
+                    <small>Pensar en un auto que frena en los semáforos. Cómo es su velocidad instantánea y media?</small>
+				</section>
+				<section>
+					<h4>#5.4</h4>
+					<h4>Velocidad</h4>
+                    <small>La velocidad es un <strong>vector</strong>, y su módulo es la rapidez.</small>
+                    <small>Ejemplos: Si digo que un automóvil se mueve a 60km/h, estoy diciendo su velocidad?</small>
+                    <small>Y si digo que se mueve a 60km/h hacia el este?</small>
+				</section>
+				<section>
+					<h4>#5.5</h4>
+                    <object data="velocidad.svg" type="image/svg+xml" height="600px" ></object>
+				</section>
+				<section>
+					<h4>#5.6</h4>
+                    <object data="velocidad_2.svg" type="image/svg+xml" height="600px" ></object>
+				</section>
+				<section>
+					<h4>#5.7</h4>
+                    <object data="velocidad_3.svg" type="image/svg+xml" height="600px" ></object>
+				</section>
+				<section>
+					<h4>#5.8</h4>
+                    <object data="velocidad_4.svg" type="image/svg+xml" height="600px" ></object>
+				</section>
+				<section>
+					<h4>#5.9</h4>
+					<h4>Aceleración</h4>
+                    <small>La aceleración también es un <strong>vector</strong></small><br/>
+                    <small><font color="blue"><strong>Aceleración = cambio de velocidad / tiempo</strong></font></small>
+                    <small>Ejemplo: Una moto que arranca de reposo y demora 2 segundos en alcanzar 20km/h, que aceleración tiene?</small>
+                    <small>Ejemplo: Un objeto que se encuentra girando con rapidez constante, acelera?</small>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

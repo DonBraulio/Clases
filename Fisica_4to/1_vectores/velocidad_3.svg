@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 752 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-43.5032,-1102.87)">
+        <g transform="matrix(1.81836,0,0,1.79305,-263.507,329.272)">
+            <path d="M581.387,509.76C581.387,467.08 547.218,432.429 505.131,432.429L246.069,432.429C203.982,432.429 169.813,467.08 169.813,509.76L169.813,664.424C169.813,707.105 203.982,741.756 246.069,741.756L505.131,741.756C547.218,741.756 581.387,707.105 581.387,664.424L581.387,509.76Z" style="fill:white;stroke:black;stroke-width:1.96px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-41.3443,20.7236)">
+            <path d="M772.592,1442.26C772.592,1419.73 754.308,1401.45 731.786,1401.45L610.445,1401.45C587.924,1401.45 569.639,1419.73 569.639,1442.26L569.639,1523.87C569.639,1546.39 587.924,1564.67 610.445,1564.67L731.786,1564.67C754.308,1564.67 772.592,1546.39 772.592,1523.87L772.592,1442.26Z" style="fill:rgb(207,207,207);stroke:rgb(77,77,77);stroke-width:6.25px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,68.7315,12.8216)">
+            <text x="571.169px" y="1513.67px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">Δt</text>
+        </g>
+        <g transform="matrix(1,0,0,1,65.5731,3.07895)">
+            <text x="570.382px" y="1488.34px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">Δx</text>
+        </g>
+        <g transform="matrix(1,0,0,1,82.958,12.6147)">
+            <text x="484.922px" y="1492.77px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;fill:none;">v =</text>
+            <text x="484.922px" y="1492.77px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">v =</text>
+        </g>
+        <g transform="matrix(1,0,0,1,17.5032,25.8184)">
+            <path d="M601.847,1473.13L666.967,1473.13" style="fill:rgb(255,0,0);stroke:black;stroke-width:1.67px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-30.3016,-6.63172)">
+            <text x="302.278px" y="1531.6px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;fill:none;">tiempo</text>
+            <text x="302.278px" y="1531.6px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">tiempo</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-39.3895,24.9859)">
+            <path d="M302.803,1475.72L404.802,1475.72" style="fill:none;stroke:black;stroke-width:1.67px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-39.9706,-3.39456)">
+            <text x="156.438px" y="1499.77px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;fill:none;">velocidad = distancia</text>
+            <text x="156.438px" y="1499.77px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">velocidad = distancia</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-87,8)">
+            <text x="179.379px" y="1308.83px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">Δt  :  diferencia de tiempo (tiempo que pasó entre 2 y 3)</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-180.328,17.4118)">
+            <text x="259.429px" y="1259.61px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">Δx  :  diferencia de posición (distancia recorrida entre 2 y 3)</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-54.7976,-6.87655)">
+            <text x="133.25px" y="1229.97px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33.333px;fill:none;">Entonces:</text>
+            <text x="133.25px" y="1229.97px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33.333px;">Entonces:</text>
+            <rect x="133.25" y="1233.5" width="161.133" height="3.499"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-189.978,4.86975)">
+            <text x="330.857px" y="1167.63px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;fill:none;">El símbolo &quot;</text>
+            <text x="330.857px" y="1167.63px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">El símbolo &quot;</text>
+            <text x="476.059px" y="1167.63px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:25px;">Δ&quot; signiﬁca &quot;cambio&quot; o &quot;diferencia&quot;</text>
+        </g>
+        <g transform="matrix(0.0322869,0.584294,-0.577366,0.0273374,945.96,1257.87)">
+            <path d="M361.285,967.487C338.373,934.087 361.364,808.525 370.249,782.02L411.203,841.095" style="fill:none;stroke:rgb(177,177,177);stroke-width:21.58px;"/>
+            <path d="M314.324,825.859L370.249,782.02" style="fill:none;stroke:rgb(177,177,177);stroke-width:21.58px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-59.5229,20.5569)">
+            <text x="137.475px" y="1402.94px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33.333px;fill:none;">Luego:</text>
+            <text x="137.475px" y="1402.94px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33.333px;">Luego:</text>
+            <rect x="137.475" y="1406.47" width="111.084" height="3.499"/>
+        </g>
+    </g>
+</svg>
