@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Física - Braulio Ríos / Anima </title>
+
+		<meta name="author" content="Braulio Ríos">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5" />
+		<link rel="stylesheet" href="br_style.css">
+		<link rel="stylesheet" href="rickshaw.min.css">
+        <script src="vendor/d3.min.js"></script> 
+        <script src="vendor/d3.layout.min.js"></script> 
+        <script src="rickshaw.min.js"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js" charset="utf-8"></script>
+		<script src="br_gui.js"></script>
+	</head>
+
+	<body>
+        <div class="sim-container"> 
+            <svg width="100%" height="100%" id="dibujo">
+                  <circle id="pelota" cx=50 cy=50 r="20" stroke="black" stroke-width="2" fill="white" />
+                  <line class="v-grid-line" x1="100" y1="0" x2="100" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="v-grid-line" x1="200" y1="0" x2="200" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="v-grid-line" x1="300" y1="0" x2="300" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="v-grid-line" x1="400" y1="0" x2="400" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="v-grid-line" x1="500" y1="0" x2="500" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="v-grid-line" x1="600" y1="0" x2="600" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="v-grid-line" x1="700" y1="0" x2="700" y2="1000" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+
+                  <line class="h-grid-line" x1="0" y1="100" x2="1000" y2="100" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="h-grid-line" x1="0" y1="200" x2="1000" y2="200" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="h-grid-line" x1="0" y1="300" x2="1000" y2="300" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="h-grid-line" x1="0" y1="400" x2="1000" y2="400" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+                  <line class="h-grid-line" x1="0" y1="500" x2="1000" y2="500" style="stroke:rgb(174,174,174);stroke-width:1;stroke-dasharray:8.33,8.33,0,0;" />
+            </svg>
+        </div>
+        <div class="script-container">
+            <button id="btn-play-pause">Play</button>
+            <button id="btn-stop">Stop</button>
+            <div id="editor">
+function iniciar(){
+    pelota1.x = 50
+    pelota1.y = 50
+}
+
+function actualizar(){
+    // Esta función se corre cada 30 milisegundos
+    pelota1.x = pelota1.x + 1;
+}
+            </div>
+        </div>
+        <div class="graphs-container">
+            <div class="plot-box"><span>Posición</span><div id="position-plot"></div></div>
+            <div class="plot-box"><span>Velocidad</span><div id="speed-plot"></div></div>
+            <div class="plot-box"><span>Aceleración</span><div id="accel-plot"></div></div>
+        </div>
+	</body>

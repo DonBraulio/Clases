@@ -1,0 +1,43 @@
+button#btn-play-pause,
+button#btn-stop {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+}
+
+.sim-container {
+    float: left;
+    width: 55vw;
+    height: 60vh;
+    background: #ffffff;
+}
+.script-container {
+    float: right;
+    width: 35vw;
+    height: 100vh;
+    background: #afafaf;
+    text-align: center;
+}
+.graphs-container {
+    float: left;
+    width: 55vw;
+    height: 35vh;
+    bottom: 0px;
+    background: #ffffff;
+}
+.plot-box {
+    text-align: center;
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    background: #ffffff;
+}
+#position-plot, #speed-plot, #accel-plot {
+    width: 100%;
+    height: 100%;
+}
+#editor {
+    width: 35vw;
+    height: 80vh;
+}
