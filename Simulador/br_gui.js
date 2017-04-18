@@ -18,10 +18,11 @@ window.onload = function(){
     // Accel Plot
 	var accel_plot = document.querySelector("#accel-plot")
 	var accel_data = []
-	var accel_graph = initializeAccelPlot(accel_plot, accel_data)
+    var accel_graph = initializeAccelPlot(accel_plot, accel_data)
 
     // Code editor
 	var editor = ace.edit("editor")
+    editor.on('change', stopSim)
     setUpGUI()
     // User defined functions will be stored here so they're available in this scope
     var updatePosition
@@ -111,7 +112,6 @@ window.onload = function(){
 		// Accel plot update
         if(speed_data.length > 1){
             accel = (speed_data[speed_data.length - 1].y - speed_data[speed_data.length - 2].y)/dt
-            alert(accel)
             accel_data.push({x: time, y: accel})
             if (accel_data.length >= 10/dt){ // limit to 10 secs the x axe
                 accel_data.shift()
@@ -169,7 +169,8 @@ function initializePositionPlot(pos_element, pos_data){
 	xAxis.render()
 	// Y-Axis
 	var yAxis = new Rickshaw.Graph.Axis.Y({
-    	graph: graph
+    	graph: graph,
+        ticks: 5
 	});
 	yAxis.render()
 	graph.render()
@@ -182,6 +183,7 @@ function initializeSpeedPlot(speed_element, speed_data){
 		renderer: 'line',
 		width: speed_element.offsetWidth, 
 		height: speed_element.offsetHeight, 
+        min: 'auto',
 		series: [{
 			color: 'steelblue',
 			data: speed_data,
@@ -205,7 +207,8 @@ function initializeSpeedPlot(speed_element, speed_data){
 	xAxis.render()
 	// Y-Axis
 	var yAxis = new Rickshaw.Graph.Axis.Y({
-    	graph: graph
+    	graph: graph,
+        ticks: 5
 	});
 	yAxis.render()
 	graph.render()
@@ -213,17 +216,16 @@ function initializeSpeedPlot(speed_element, speed_data){
 }
 
 function initializeAccelPlot(accel_element, accel_data){
-    var linearScale = d3.scale.linear().domain([-40000, 40000]).nice()
 	var graph = new Rickshaw.Graph( {
 		element: accel_element, 
 		renderer: 'line',
 		width: accel_element.offsetWidth, 
 		height: accel_element.offsetHeight, 
+        min: 'auto',
 		series: [{
 			color: 'steelblue',
 			data: accel_data,
 			name: 'Aceleración',
-            scale: linearScale
 		}]
 	})
 	 
@@ -242,12 +244,12 @@ function initializeAccelPlot(accel_element, accel_data){
 	});
 	xAxis.render()
 	// Y-Axis
-	var yAxis = new Rickshaw.Graph.Axis.Y.Scaled({
+	var yAxis = new Rickshaw.Graph.Axis.Y({
     	graph: graph,
-        scale: linearScale,
-        ticks: 4
+        ticks: 5
 	});
 	yAxis.render()
 	graph.render()
     return graph
 }
+
