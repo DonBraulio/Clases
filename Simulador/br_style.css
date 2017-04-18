@@ -7,20 +7,20 @@ button#btn-stop {
 
 .sim-container {
     float: left;
-    width: 55vw;
+    width: 45vw;
     height: 60vh;
     background: #ffffff;
 }
 .script-container {
     float: right;
-    width: 35vw;
+    width: 45vw;
     height: 100vh;
     background: #afafaf;
     text-align: center;
 }
 .graphs-container {
     float: left;
-    width: 55vw;
+    width: 45vw;
     height: 35vh;
     bottom: 0px;
     background: #ffffff;
@@ -30,7 +30,7 @@ button#btn-stop {
     float: left;
     width: 30%;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
     background: #ffffff;
 }
 #position-plot, #speed-plot, #accel-plot {
@@ -38,6 +38,6 @@ button#btn-stop {
     height: 100%;
 }
 #editor {
-    width: 35vw;
+    width: 45vw;
     height: 80vh;
 }

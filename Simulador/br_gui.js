@@ -43,6 +43,8 @@ window.onload = function(){
 	}
 	
 	function stopSim(){
+        if(time == 0)
+            return
 		time = 0
         // Clear position data points
         pos_data.length = 0
